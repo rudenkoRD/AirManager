@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import com.rrd.airmanager.controls.input.DateTimePicker?>
+<DialogPane fx:id="dialogPane" expanded="true" prefHeight="285.0" prefWidth="308.0" stylesheets="@../../styles/app.css"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.rrd.airmanager.controller.schedule.FlightDialogController">
+    <buttonTypes>
+        <ButtonType fx:constant="OK"/>
+        <ButtonType fx:constant="CANCEL"/>
+    </buttonTypes>
+    <content>
+        <AnchorPane prefHeight="292.0" prefWidth="308.0">
+            <children>
+                <Label fx:id="startAirportLabel" layoutX="25.0" layoutY="19.0" prefHeight="17.0" prefWidth="77.0"
+                       text="%flight.startAirport" textFill="WHITE"/>
+                <Label fx:id="arrivalAirportLabel" layoutX="25.0" layoutY="56.0" text="%flight.arrivalAirport"
+                       textFill="WHITE"/>
+                <Label fx:id="startTimeLabel" layoutX="25.0" layoutY="93.0" text="%flight.startTime" textFill="WHITE"/>
+                <Label fx:id="endTimeLabel" layoutX="25.0" layoutY="130.0" text="%flight.endTime" textFill="WHITE"/>
+                <Label fx:id="firstPilotLabel" layoutX="25.0" layoutY="168.0" text="%flight.firstPilot"
+                       textFill="WHITE"/>
+                <ComboBox fx:id="firstPilotField" layoutX="114.0" layoutY="163.0" prefHeight="25.0" prefWidth="162.0"
+                          promptText="%label.select"/>
+                <Label fx:id="secondPilotLabel" layoutX="26.0" layoutY="207.0" text="%flight.secondPilot"
+                       textFill="WHITE"/>
+                <ComboBox fx:id="secondPilotField" layoutX="114.0" layoutY="201.0" prefHeight="25.0" prefWidth="162.0"
+                          promptText="%label.select"/>
+                <ComboBox fx:id="arrivalAirportField" layoutX="115.0" layoutY="50.0" prefHeight="25.0" prefWidth="162.0"
+                          promptText="%label.select"/>
+                <ComboBox fx:id="startAirportField" layoutX="115.0" layoutY="13.0" prefHeight="25.0" prefWidth="162.0"
+                          promptText="%label.select"/>
+                <DateTimePicker fx:id="startTimeField" layoutX="114.0" layoutY="88.0" prefHeight="25.0"
+                                prefWidth="162.0"/>
+                <DateTimePicker fx:id="endTimeField" layoutX="114.0" layoutY="126.0" prefHeight="25.0"
+                                prefWidth="162.0"/>
+                <Label fx:id="errorLabel" layoutX="25.0" layoutY="275.0" prefHeight="14.0" prefWidth="246.0"
+                       textFill="#ff5757"/>
+                <Label fx:id="planeLabel" layoutX="26.0" layoutY="245.0" text="%flight.plane" textFill="WHITE"/>
+                <ComboBox fx:id="planeField" layoutX="114.0" layoutY="239.0" prefHeight="25.0" prefWidth="162.0"
+                          promptText="%label.select"/>
+            </children>
+        </AnchorPane>
+    </content>
+</DialogPane>

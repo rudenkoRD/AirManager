@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<DialogPane fx:id="dialogPane" expanded="true" prefHeight="256.0" prefWidth="308.0" stylesheets="@../../styles/app.css"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.rrd.airmanager.controller.pilot.PilotDialogController">
+    <buttonTypes>
+        <ButtonType fx:constant="OK"/>
+        <ButtonType fx:constant="CANCEL"/>
+    </buttonTypes>
+    <content>
+        <AnchorPane prefHeight="199.0" prefWidth="308.0">
+            <children>
+                <TextField fx:id="nameField" layoutX="114.0" layoutY="15.0"/>
+                <Label fx:id="nameLabel" layoutX="25.0" layoutY="19.0" prefHeight="17.0" prefWidth="59.0"
+                       text="%label.name" textFill="WHITE"/>
+                <Label fx:id="birthdayLabel" layoutX="25.0" layoutY="56.0" text="%pilot.birthday" textFill="WHITE"/>
+                <TextField fx:id="salaryField" layoutX="114.0" layoutY="90.0" prefWidth="162.0"/>
+                <Label fx:id="salaryLabel" layoutX="25.0" layoutY="93.0" text="%pilot.salary" textFill="WHITE"/>
+                <TextField fx:id="flyHoursField" layoutX="114.0" layoutY="126.0" prefWidth="162.0"/>
+                <Label fx:id="flyHoursLabel" layoutX="25.0" layoutY="130.0" text="%pilot.flyHours" textFill="WHITE"/>
+                <Label fx:id="pilotTypeLabel" layoutX="25.0" layoutY="168.0" text="Pilot type:" textFill="WHITE"/>
+                <DatePicker fx:id="birthdayField" editable="false" layoutX="114.0" layoutY="51.0" prefHeight="29.0"
+                            prefWidth="164.0" promptText="%label.select"/>
+                <ComboBox fx:id="pilotTypeField" layoutX="114.0" layoutY="164.0" prefHeight="25.0" prefWidth="162.0"
+                          promptText="%label.select"/>
+            </children>
+        </AnchorPane>
+    </content>
+</DialogPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="900.0" stylesheets="@../styles/app.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rrd.airmanager.controller.MenuController">
+    <children>
+      <AnchorPane VBox.vgrow="NEVER">
+         <children>
+              <Pane prefHeight="50.0" prefWidth="900.0" style="-fx-border-color: #5d7784; -fx-border-width: 0 0 3 0;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <children>
+                      <Button fx:id="scheduleButton" layoutX="8.0" layoutY="8.0" mnemonicParsing="false" onAction="#showScheduleActions" text="%label.schedule" textFill="WHITE" />
+                      <Button fx:id="planesButton" layoutX="85.0" layoutY="8.0" mnemonicParsing="false" onAction="#showPlanesActions" text="%label.planes" textFill="WHITE" />
+                      <Button fx:id="airportsButton" layoutX="162.0" layoutY="8.0" mnemonicParsing="false" onAction="#showAirportActions" text="%label.airports" textFill="WHITE" />
+                      <Button fx:id="pilotsButton" layoutX="239.0" layoutY="8.0" mnemonicParsing="false" onAction="#showPilotsActions" text="%label.pilots" textFill="WHITE" />
+                      <Button layoutX="316.0" layoutY="8.0" mnemonicParsing="false" onAction="#showDocumentation" text="%label.help" textFill="WHITE" />
+                  </children>
+              </Pane>
+         </children>
+      </AnchorPane>
+        <AnchorPane fx:id="bodyPane" prefHeight="518.0" prefWidth="900.0" VBox.vgrow="ALWAYS" />
+        <HBox spacing="5.0" style="-fx-background-color: #5d7784;" VBox.vgrow="NEVER">
+            <children>
+                <Label fx:id="statusLabel" prefHeight="17.0" prefWidth="528.0" textFill="WHITE" />
+                <Pane prefWidth="499.0" HBox.hgrow="NEVER" />
+                <Label fx:id="versionLabel" alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="441.0" text="dsf" textAlignment="RIGHT" textFill="WHITE" />
+            </children>
+            <padding>
+                <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+            </padding>
+        </HBox>
+    </children>
+</VBox>

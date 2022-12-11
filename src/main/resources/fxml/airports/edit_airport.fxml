@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<DialogPane fx:id="dialogPane" expanded="true" stylesheets="@../../styles/app.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rrd.airmanager.controller.airport.AirportDialogController">
+    <buttonTypes>
+        <ButtonType fx:constant="OK" />
+        <ButtonType fx:constant="CANCEL" />
+    </buttonTypes>
+    <content>
+        <AnchorPane prefHeight="100.0" prefWidth="292.0">
+            <children>
+                <TextField fx:id="locationField" layoutX="114.0" layoutY="14.0" />
+                <TextField fx:id="maxCapacityField" layoutX="114.0" layoutY="63.0" prefWidth="162.0" />
+                <Label fx:id="locationLabel" layoutX="25.0" layoutY="18.0" prefHeight="17.0" prefWidth="59.0" text="%label.location" textFill="WHITE" />
+                <Label fx:id="capacityLabel" layoutX="25.0" layoutY="67.0" text="%label.maxCapacity" textFill="WHITE" />
+            </children>
+        </AnchorPane>
+    </content>
+</DialogPane>

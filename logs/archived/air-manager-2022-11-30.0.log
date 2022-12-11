@@ -1,0 +1,254 @@
+2022-11-30 22:36:21,519 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Starting application using Java 19.0.1 on Ruslans-MacBook-Pro.local with PID 50445 (started by ruslanr in /Users/ruslanr/University/AppliedProgramming/AirManager)
+2022-11-30 22:36:21,520 INFO org.springframework.boot.SpringApplication [JavaFX-Launcher] No active profile set, falling back to 1 default profile: "default"
+2022-11-30 22:36:21,821 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 22:36:21,874 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Finished Spring Data repository scanning in 48 ms. Found 4 JPA repository interfaces.
+2022-11-30 22:36:22,061 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Starting...
+2022-11-30 22:36:22,600 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Start completed.
+2022-11-30 22:36:22,632 INFO org.hibernate.jpa.internal.util.LogHelper [JavaFX-Launcher] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 22:36:22,668 INFO org.hibernate.Version [JavaFX-Launcher] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 22:36:22,784 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [JavaFX-Launcher] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 22:36:22,851 INFO org.hibernate.dialect.Dialect [JavaFX-Launcher] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-30 22:36:23,141 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [JavaFX-Launcher] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 22:36:23,146 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX-Launcher] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 22:36:23,399 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Started application in 2.052 seconds (JVM running for 7.877)
+2022-11-30 22:36:27,765 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX Application Thread] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 22:36:27,776 INFO com.zaxxer.hikari.HikariDataSource [JavaFX Application Thread] HikariPool-1 - Shutdown initiated...
+2022-11-30 22:36:27,950 INFO com.zaxxer.hikari.HikariDataSource [JavaFX Application Thread] HikariPool-1 - Shutdown completed.
+2022-11-30 23:07:23,002 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Starting application using Java 19.0.1 on Ruslans-MacBook-Pro.local with PID 50894 (started by ruslanr in /Users/ruslanr/University/AppliedProgramming/AirManager)
+2022-11-30 23:07:23,003 INFO org.springframework.boot.SpringApplication [JavaFX-Launcher] No active profile set, falling back to 1 default profile: "default"
+2022-11-30 23:07:23,191 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 23:07:23,222 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2022-11-30 23:07:23,360 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Starting...
+2022-11-30 23:07:23,845 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Start completed.
+2022-11-30 23:07:23,881 INFO org.hibernate.jpa.internal.util.LogHelper [JavaFX-Launcher] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 23:07:23,907 INFO org.hibernate.Version [JavaFX-Launcher] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 23:07:23,978 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [JavaFX-Launcher] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 23:07:24,026 INFO org.hibernate.dialect.Dialect [JavaFX-Launcher] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-30 23:07:24,275 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [JavaFX-Launcher] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 23:07:24,278 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX-Launcher] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:07:24,503 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Started application in 1.664 seconds (JVM running for 7.189)
+2022-11-30 23:08:00,797 ERROR com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Failed to open dialog
+javafx.fxml.LoadException: 
+/Users/ruslanr/University/AppliedProgramming/AirManager/target/classes/fxml/planes/planes.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at com.rrd.airmanager.AppFXMLLoader.loadMenuSection(AppFXMLLoader.java:48)
+	at com.rrd.airmanager.controller.MenuController.showPlanesActions(MenuController.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Node.fireEvent(Node.java:8797)
+	at javafx.scene.control.Button.fire(Button.java:203)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3881)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1874)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2607)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.Collection.isEmpty()" because "<parameter1>" is null
+	at javafx.collections.ModifiableObservableListBase.setAll(ModifiableObservableListBase.java:91)
+	at com.rrd.airmanager.controller.TableViewController.setUpTable(TableViewController.java:98)
+	at com.rrd.airmanager.controller.TableViewController.initialize(TableViewController.java:75)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655)
+	... 56 common frames omitted
+2022-11-30 23:09:52,440 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:09:52,453 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-30 23:09:59,860 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Starting application using Java 19.0.1 on Ruslans-MacBook-Pro.local with PID 50930 (started by ruslanr in /Users/ruslanr/University/AppliedProgramming/AirManager)
+2022-11-30 23:09:59,862 INFO org.springframework.boot.SpringApplication [JavaFX-Launcher] No active profile set, falling back to 1 default profile: "default"
+2022-11-30 23:10:00,042 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 23:10:00,068 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Finished Spring Data repository scanning in 22 ms. Found 4 JPA repository interfaces.
+2022-11-30 23:10:00,202 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Starting...
+2022-11-30 23:10:00,591 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Start completed.
+2022-11-30 23:10:00,620 INFO org.hibernate.jpa.internal.util.LogHelper [JavaFX-Launcher] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 23:10:00,645 INFO org.hibernate.Version [JavaFX-Launcher] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 23:10:00,709 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [JavaFX-Launcher] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 23:10:00,760 INFO org.hibernate.dialect.Dialect [JavaFX-Launcher] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-30 23:10:01,001 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [JavaFX-Launcher] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 23:10:01,004 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX-Launcher] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:10:01,226 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Started application in 1.519 seconds (JVM running for 7.033)
+2022-11-30 23:10:03,142 ERROR com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Failed to open dialog
+javafx.fxml.LoadException: 
+/Users/ruslanr/University/AppliedProgramming/AirManager/target/classes/fxml/planes/planes.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2685)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at com.rrd.airmanager.AppFXMLLoader.loadMenuSection(AppFXMLLoader.java:48)
+	at com.rrd.airmanager.controller.MenuController.showPlanesActions(MenuController.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Node.fireEvent(Node.java:8797)
+	at javafx.scene.control.Button.fire(Button.java:203)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3881)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1874)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2607)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.Collection.isEmpty()" because "<parameter1>" is null
+	at javafx.collections.ModifiableObservableListBase.setAll(ModifiableObservableListBase.java:91)
+	at com.rrd.airmanager.controller.TableViewController.setUpTable(TableViewController.java:98)
+	at com.rrd.airmanager.controller.TableViewController.initialize(TableViewController.java:75)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2655)
+	... 56 common frames omitted
+2022-11-30 23:10:45,687 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:10:45,695 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-30 23:10:45,996 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-11-30 23:10:53,210 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Starting application using Java 19.0.1 on Ruslans-MacBook-Pro.local with PID 50944 (started by ruslanr in /Users/ruslanr/University/AppliedProgramming/AirManager)
+2022-11-30 23:10:53,211 INFO org.springframework.boot.SpringApplication [JavaFX-Launcher] No active profile set, falling back to 1 default profile: "default"
+2022-11-30 23:10:53,400 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 23:10:53,428 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2022-11-30 23:10:53,563 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Starting...
+2022-11-30 23:10:53,993 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Start completed.
+2022-11-30 23:10:54,023 INFO org.hibernate.jpa.internal.util.LogHelper [JavaFX-Launcher] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 23:10:54,044 INFO org.hibernate.Version [JavaFX-Launcher] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 23:10:54,103 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [JavaFX-Launcher] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 23:10:54,153 INFO org.hibernate.dialect.Dialect [JavaFX-Launcher] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-30 23:10:54,387 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [JavaFX-Launcher] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 23:10:54,390 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX-Launcher] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:10:54,619 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Started application in 1.556 seconds (JVM running for 7.108)
+2022-11-30 23:11:00,856 INFO com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Opened plane editing dialog
+2022-11-30 23:12:29,901 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:12:29,907 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-30 23:12:30,092 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-11-30 23:12:37,444 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Starting application using Java 19.0.1 on Ruslans-MacBook-Pro.local with PID 50967 (started by ruslanr in /Users/ruslanr/University/AppliedProgramming/AirManager)
+2022-11-30 23:12:37,445 INFO org.springframework.boot.SpringApplication [JavaFX-Launcher] No active profile set, falling back to 1 default profile: "default"
+2022-11-30 23:12:37,621 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 23:12:37,648 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2022-11-30 23:12:37,787 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Starting...
+2022-11-30 23:12:38,170 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Start completed.
+2022-11-30 23:12:38,199 INFO org.hibernate.jpa.internal.util.LogHelper [JavaFX-Launcher] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 23:12:38,222 INFO org.hibernate.Version [JavaFX-Launcher] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 23:12:38,289 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [JavaFX-Launcher] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 23:12:38,334 INFO org.hibernate.dialect.Dialect [JavaFX-Launcher] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-30 23:12:38,576 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [JavaFX-Launcher] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 23:12:38,579 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX-Launcher] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:12:38,795 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Started application in 1.494 seconds (JVM running for 7.046)
+2022-11-30 23:12:41,588 INFO com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Opened plane editing dialog
+2022-11-30 23:12:45,590 INFO com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Saved plane
+2022-11-30 23:12:58,083 INFO com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Opened plane editing dialog
+2022-11-30 23:13:01,620 INFO com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Saved plane
+2022-11-30 23:13:04,777 INFO com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Opened plane editing dialog
+2022-11-30 23:13:18,437 INFO com.rrd.airmanager.controller.MenuController [JavaFX Application Thread] Saved plane
+2022-11-30 23:14:02,854 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX Application Thread] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:14:02,859 INFO com.zaxxer.hikari.HikariDataSource [JavaFX Application Thread] HikariPool-1 - Shutdown initiated...
+2022-11-30 23:14:03,030 INFO com.zaxxer.hikari.HikariDataSource [JavaFX Application Thread] HikariPool-1 - Shutdown completed.
+2022-11-30 23:14:10,471 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Starting application using Java 19.0.1 on Ruslans-MacBook-Pro.local with PID 50980 (started by ruslanr in /Users/ruslanr/University/AppliedProgramming/AirManager)
+2022-11-30 23:14:10,472 INFO org.springframework.boot.SpringApplication [JavaFX-Launcher] No active profile set, falling back to 1 default profile: "default"
+2022-11-30 23:14:10,662 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 23:14:10,692 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2022-11-30 23:14:10,872 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Starting...
+2022-11-30 23:14:11,453 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Start completed.
+2022-11-30 23:14:11,491 INFO org.hibernate.jpa.internal.util.LogHelper [JavaFX-Launcher] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 23:14:11,514 INFO org.hibernate.Version [JavaFX-Launcher] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 23:14:11,583 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [JavaFX-Launcher] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 23:14:11,634 INFO org.hibernate.dialect.Dialect [JavaFX-Launcher] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-30 23:14:11,874 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [JavaFX-Launcher] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 23:14:11,877 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX-Launcher] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:14:12,101 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Started application in 1.771 seconds (JVM running for 7.324)
+2022-11-30 23:14:35,250 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX Application Thread] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:14:35,253 INFO com.zaxxer.hikari.HikariDataSource [JavaFX Application Thread] HikariPool-1 - Shutdown initiated...
+2022-11-30 23:14:35,450 INFO com.zaxxer.hikari.HikariDataSource [JavaFX Application Thread] HikariPool-1 - Shutdown completed.
+2022-11-30 23:48:01,571 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Starting application using Java 19.0.1 on Ruslans-MacBook-Pro.local with PID 51511 (started by ruslanr in /Users/ruslanr/University/AppliedProgramming/AirManager)
+2022-11-30 23:48:01,572 INFO org.springframework.boot.SpringApplication [JavaFX-Launcher] No active profile set, falling back to 1 default profile: "default"
+2022-11-30 23:48:01,818 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 23:48:01,852 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [JavaFX-Launcher] Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2022-11-30 23:48:02,125 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Starting...
+2022-11-30 23:48:02,557 INFO com.zaxxer.hikari.HikariDataSource [JavaFX-Launcher] HikariPool-1 - Start completed.
+2022-11-30 23:48:02,591 INFO org.hibernate.jpa.internal.util.LogHelper [JavaFX-Launcher] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 23:48:02,614 INFO org.hibernate.Version [JavaFX-Launcher] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 23:48:02,685 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [JavaFX-Launcher] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 23:48:02,736 INFO org.hibernate.dialect.Dialect [JavaFX-Launcher] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-30 23:48:02,990 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [JavaFX-Launcher] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 23:48:02,994 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX-Launcher] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:48:03,224 INFO org.springframework.boot.StartupInfoLogger [JavaFX-Launcher] Started application in 1.814 seconds (JVM running for 7.526)
+2022-11-30 23:48:10,175 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [JavaFX Application Thread] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 23:48:10,178 INFO com.zaxxer.hikari.HikariDataSource [JavaFX Application Thread] HikariPool-1 - Shutdown initiated...
+2022-11-30 23:48:10,333 INFO com.zaxxer.hikari.HikariDataSource [JavaFX Application Thread] HikariPool-1 - Shutdown completed.
